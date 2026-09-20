@@ -15,5 +15,6 @@ public class TestController
     @javafx.fxml.FXML
     public void handleOnHelloButton(ActionEvent actionEvent) {
         text.setText("Welcome to the OOP Course!");
+        System.out.println("Welcome to the OOP Course!");
     }
 }
