@@ -10,6 +10,7 @@ public class TestController
 
     @javafx.fxml.FXML
     public void initialize() {
+        text.setText("This is OOP Tutorial");
     }
 
     @javafx.fxml.FXML
